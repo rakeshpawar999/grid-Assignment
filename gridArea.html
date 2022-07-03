@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        #container {
+            display: grid;
+            grid-template-columns: 200px 200px;
+            grid-template-rows: 60px 60px;
+            grid-row-gap: 10px;
+            grid-column-gap: 10px
+        }
+        
+        #container>div:nth-child(3) {
+            grid-template-columns: 60px;
+            grid-template-rows: 60px;
+        }
+        
+        #container>div {
+            background-color: rgb(97, 91, 91);
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id="container">
+
+        </head>
+
+        <body>
+            <div id="container">
+                <div>A</div>
+                <div>B</div>
+                <div>C</div>
+                <div>D</div>
+                <div>E</div>
+
+            </div>
+        </body>
+    </div>
+</body>
+
+</html>
